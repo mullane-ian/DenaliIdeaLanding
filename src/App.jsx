@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import { useRef, Suspense, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Reflector, Text, Environment,useGLTF } from '@react-three/drei'
+import { Reflector, Text, Environment,useGLTF, Loader } from '@react-three/drei'
 import Bottles from './Bottles'
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
@@ -165,6 +165,7 @@ export default function App() {
           {/* <Joints speed={1}/> */}
        </Suspense>
       </Canvas>
+      <Loader />
       </>
       
     );
