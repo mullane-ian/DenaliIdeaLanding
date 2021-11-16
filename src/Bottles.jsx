@@ -10,9 +10,9 @@ const bottleMaterial = new THREE.MeshPhysicalMaterial({
     color: '#efefef',
     transmission: 1,
     roughness: 0.0,
-    thickness: 20,
-    envMapIntensity: 0.6,
-    clearcoat:0.5,
+    thickness: 2,
+    envMapIntensity: 6,
+    clearcoat:2,
     clearcoatRoughness:0
 
   })
@@ -109,7 +109,7 @@ export default function Bottles({ ...props }) {
             </Bottle>
             
         </group>
-        <Label useRef={label}  scale={[5.5,5,5]} position={[0,4.9,-10]}/>
+        <Label useRef={label}  scale={[6,5,5]} position={[0,4.9,-10]}/>
 
       </group>
     )

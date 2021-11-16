@@ -156,12 +156,12 @@ export default function App() {
             anchorY="middle">
             {`Elevate Your High`}
           </Text> 
-          <Tree position={[20,-10,-40]}/>
+          {/* <Tree position={[20,-10,-40]}/>
           <Tree position={[-20,-10,-40]}/>
           <Tree scale={[2,2,2]} position={[50,-20,-80]}/>
           <Tree scale={[1.5,2,2]} position={[-30,-20,-48]}/>
           <Tree scale={[1.5,3,2]} position={[-50,-20,-30]}/>
-          <Tree scale={[3,2,2]} position={[0,-20,-70]}/>
+          <Tree scale={[3,2,2]} position={[0,-20,-70]}/> */}
           {/* <Joints speed={1}/> */}
        </Suspense>
       </Canvas>
